@@ -1,0 +1,239 @@
+.form {
+    background-color: #303A53 ;
+    padding: 40px 21px;
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+
+    @media screen and (min-width: $mobile) and (max-width: $max-mob) {
+      width: 300px;
+      margin-bottom: 36px;
+    }
+
+    @media screen and (min-width: $tablet) {
+      width: 360px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      position: relative;
+    }
+  
+    &__title {
+      margin-bottom: 18px;
+      color: #fff;
+      font-size: 20px;
+    }
+  
+    &__span {
+      color: #FF3459;
+    }
+  
+    &__input {
+      color: #757575;
+      background-color: #272D3D;
+      border-radius: 5px;
+      border-color: transparent;
+
+      @media screen and (min-width: $mobile) and (max-width: $max-mob) {
+        padding-left: 26px;
+        margin-bottom: 14px;
+        width: 260px;
+        height: 46px;
+      }
+
+      @media screen and (min-width: $tablet) {
+        padding-left: 26px;
+        margin-bottom: 14px;
+        width: 320px;
+        height: 46px;
+      }
+    }
+  
+    &__input-box {
+      display: flex;
+    }
+  
+    &__select {
+      background-color: #272D3D;
+      border-color: transparent;
+      border-radius: 5px;
+      color: #757575;
+      height: 46px;
+      width: 80px;
+      font-size: 14px;
+
+      @media screen and (min-width: $tablet) {
+        width: 100px;
+      }
+    }
+  
+    &__input--number {
+      color: #757575;
+      margin-bottom: 14px;
+      height: 46px;
+      width: 180px;
+      background-color: #272D3D;
+      border-radius: 5px;
+      border-color: transparent;
+  
+      @media screen and (min-width: $tablet) {
+        width: 220px;
+      }
+    }
+  
+    &__btn {
+      width: 200px;
+      height: 45px;
+      
+      background: #0048FF;
+      color: #fff;
+      border-radius: 5px;
+      border-color: transparent;
+      margin-bottom: 19px;
+    }
+   
+    &__check-title{
+      font-size: 15px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      color: #757575;
+    }
+  
+    &__check {
+      font-size: 15px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      text-decoration-line: underline;
+      color: #757575;
+    }
+}
+
+.form-photo-1 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+  }
+}
+
+.form-point-1 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 160px;
+    right: 35px;
+  }
+}
+
+.form-photo-2 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 220px;
+    right: 120px;
+  }
+}
+
+.form-point-2 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 220px;
+    right: 125px;
+  }
+}
+
+.form-photo-3 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 280px;
+    right: 50px;
+  }
+}
+
+.form-point-3 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 280px;
+    right: 40px;
+  }
+}
+
+.form-photo-4 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 350px;
+    right: 130px;
+  }
+}
+
+.form-point-4 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 340px;
+    right: 125px;
+  }
+}
+
+.form-photo-5 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 400px;
+    right: 65px;
+  }
+}
+
+.form-point-5 {
+
+  @media screen and (min-width: $mobile) and (max-width: $max-tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    top: 390px;
+    right: 65px;
+  }
+}

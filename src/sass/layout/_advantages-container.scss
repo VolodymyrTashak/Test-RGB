@@ -1,0 +1,57 @@
+.advantages-container{
+  
+    &__box {
+      width: 300px;
+      @media screen and (min-width: $mobile) and (max-width: $max-mob) {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      
+      }
+      @media screen and (min-width: $tablet) {
+        position: absolute;
+        top: 370px;
+      }
+    }
+  }
+
+  .info-list {
+    display: block;
+    
+    &__item {
+      margin-bottom: 22px;
+    }
+  
+    &__wrapper {
+
+      @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap-reverse;
+      }
+    }
+  
+    &__box {
+      display: flex;
+    }
+  
+    &__content {
+      display: block;
+      margin-left: 15px;
+    }
+  
+    &__text--primary {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    }
+  
+    &__text--second {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      }
+  
+    &__span {
+      color: #4252D1;
+    }
+   }

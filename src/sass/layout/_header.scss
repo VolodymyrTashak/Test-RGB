@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-top: 28px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-photo {
+    width: 50px;
+    height: 56px;
+  }
+  
+  .logo-title {
+    padding-left: 8px;
+    color: #fff;
+    font-size: 10px;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 15px;
+    }
+  }
+  
+  .logo-span {
+    font-weight: 700;
+  }
+
+  .content-list {
+    display: flex;
+  
+    &__item {
+      display: flex;
+      background-color: #302E5A;
+      padding: 8px;
+      border-radius: 10px;
+    }
+  
+    &__item:first-child {
+
+      @media screen and (min-width: $mobile) {
+        margin-right: 6px;
+      }
+      
+      @media screen and (min-width: $desktop) {
+        margin-right:18px;
+      }
+    }
+  
+    &__text {
+      font-size: 14px;
+      color: #fff;
+    }
+  
+    &__icon {
+      fill: currentColor;
+      margin-right: 10px;
+    }
+  }
