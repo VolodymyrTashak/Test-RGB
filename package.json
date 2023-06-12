@@ -5,7 +5,7 @@
   "homepage": "https://VolodymyrTashak.github.io/Test-RGB/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Test-RGB/"
   },
   "repository": {
     "type": "git",
